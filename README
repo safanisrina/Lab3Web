@@ -1,0 +1,52 @@
+# PRAKTIKUM 3 – CSS DASAR
+
+## Tujuan
+
+Praktikum ini dilakukan untuk:
+
+1. Mengenal fungsi CSS dalam mempercantik dan mengatur tampilan halaman web.
+2. Memahami dasar-dasar penulisan sintaks CSS.
+3. Mempelajari beberapa jenis selector yang digunakan pada CSS.
+4. Mencoba menghubungkan CSS dengan HTML agar tampilan halaman menjadi lebih teratur.
+
+## Tahapan Praktikum
+
+### 1. Menyiapkan Dokumen HTML
+
+Pertama, dibuat sebuah file HTML dengan nama `lab2_css_dasar.html`. File tersebut berisi kerangka dasar HTML seperti `head` dan `body`. Di dalam bagian `body` kemudian dimasukkan beberapa elemen seperti header, menu navigasi, heading, paragraf, dan hyperlink.
+
+### 2. Menambahkan CSS di Dalam HTML
+
+Setelah halaman HTML dibuat, dilakukan penerapan CSS Internal. Penulisan CSS diletakkan pada bagian `<head>` dengan menggunakan elemen `<style>`. Pengaturan yang diberikan mencakup font, ukuran tulisan, warna, perataan teks, serta tampilan pada bagian header.
+
+### 3. Mencoba Inline CSS
+
+Tahap berikutnya adalah menggunakan Inline CSS. Pada metode ini, aturan CSS ditulis secara langsung di dalam elemen HTML melalui atribut `style`. Cara tersebut digunakan untuk memberikan perubahan tampilan tertentu pada paragraf.
+
+### 4. Membuat File CSS Terpisah
+
+Selanjutnya dibuat file baru bernama `style_eksternal.css`. File ini digunakan untuk menempatkan aturan CSS secara terpisah dari dokumen HTML. Agar dapat digunakan oleh halaman HTML, file CSS kemudian dipanggil menggunakan tag `<link>`.
+
+### 5. Memberikan Style pada Menu Navigasi
+
+Pengaturan berikutnya diterapkan pada bagian navigasi dan link. Beberapa tampilan yang diatur antara lain warna background, warna tulisan, jarak antar-menu, serta efek perubahan ketika pointer mouse berada di atas link.
+
+### 6. Menerapkan ID Selector
+
+Kemudian digunakan ID Selector untuk memberikan style khusus pada elemen tertentu. Penulisan ID Selector menggunakan simbol `#`. Dalam praktikum ini, selector tersebut diterapkan pada bagian yang memiliki ID `intro`.
+
+### 7. Menerapkan Class Selector
+
+Selain ID, digunakan juga Class Selector untuk mengatur beberapa elemen yang mempunyai karakteristik tampilan yang sama. Class Selector ditulis menggunakan simbol titik (`.`) sebelum nama class dan kemudian digunakan pada elemen HTML yang diperlukan.
+
+### 8. Mengecek Tampilan Halaman
+
+Setelah semua kode selesai dibuat, seluruh file disimpan terlebih dahulu. File HTML kemudian dijalankan menggunakan browser untuk melihat hasilnya. Jika terdapat perubahan pada kode, halaman dapat di-refresh kembali untuk memastikan style CSS sudah bekerja sesuai dengan yang diharapkan.
+
+## Screenshot Hasil Praktikum
+
+![Screenshot](Screenshot/hasil1.png.png)
+
+## Kesimpulan
+
+Melalui praktikum ini, saya dapat memahami dasar penggunaan CSS untuk mengatur tampilan sebuah halaman HTML. Saya juga mempraktikkan beberapa cara penerapan CSS, yaitu Inline CSS, Internal CSS, dan External CSS. Selain itu, saya mempelajari penggunaan ID Selector dan Class Selector serta cara mengatur tampilan navigasi dan link pada halaman web. Dengan penerapan tersebut, tampilan HTML dapat dibuat lebih rapi dan sesuai dengan kebutuhan desain halaman.
